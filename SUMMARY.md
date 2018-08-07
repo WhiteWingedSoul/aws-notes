@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Lambda](README.md)
+* [Lambda](lambda.md)
 
