@@ -5,6 +5,7 @@
 - Sub-second metering
 - Multiple languages suppoted
 
+Example
 - Upload your code to AWS Lambda
 - Set up your code to trigger from other AWS services, HTTP endpoints or in-app activity
 - Lambda runs your code only when triggered using only the compute resources needed
@@ -61,7 +62,24 @@
 # Lambda Functions
 ## Building Lambda Functions
 - Authoring code for your Lambda function
+    - Supporting Languages: 
+        - Node.js – v8.10, v6.10 or v4.3
+        - Java 8
+        - Python 3.6 and 2.7
+        - .NET Core – .NET Core 1.0.1, .NET Core 2.0 and .NET Core 2.1
+        - Go 1.x
 - Uploading code and creating Lambda functions
+    - Creating a Deployment Package
+        - Create a deployment package yourself
+            - Create a .zip file consisting of your code and any dependencies
+            - Need to set the appropriate security permissions for the zip package
+            - You can upload your deployment package to S3, the package must reside in the same AWS region where you creating the Lambda function
+        - Using Lambda console
+            - When you create Lambda functions using the console, the console creates the deployment package for you, and then uploads it to create your Lambda function
+    - Uploading a Deployment Package
+        - Using Lambda Console or call API to create `Lambda Function`
+        - Ref: [Create Function](https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunction.html)
+    - Testing a Lambda Function
 - Monitoring and troubleshooting
-
+    - AWS Lambda automatically monitors functions on your behalf, reporting metrics through Amazon CloudWatch
 
