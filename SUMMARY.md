@@ -1,5 +1,5 @@
 # Table of contents
 
-* Amazon VPC(vpc.md)
+* [Amazon VPC](vpc.md)
 * [Lambda](lambda.md)
 
