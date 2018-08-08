@@ -81,5 +81,4 @@ Example
         - Ref: [Create Function](https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunction.html)
     - Testing a Lambda Function
 - Monitoring and troubleshooting
-    - AWS Lambda automatically monitors functions on your behalf, reporting metrics through Amazon CloudWatch
-
+    - AWS Lambda automatically monitors functions on your behalf, reporting metrics through `Amazon CloudWatch`
